@@ -1,0 +1,13 @@
+{
+    "name": "mailchimp/subs",
+    "description": "subcribe mailchimp",
+    "type": "wordpress-plugin",
+    "license": "gplv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "UserSubsCollection\\": "includes/"
+        }
+    }
+}
